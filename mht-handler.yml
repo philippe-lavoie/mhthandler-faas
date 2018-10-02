@@ -6,6 +6,4 @@ functions:
   mht-handler:
     lang: csharp
     handler: ./mht-handler
-    image: dockerregistrysmithco.azurecr.io/mht-handler
-    secrets:
-      - acr-auth
+    image: philippelavoie/mhthandler-faas
