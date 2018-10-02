@@ -1,0 +1,7 @@
+template
+build
+netcoreapp2.1
+*/obj
+*/bin
+*/.vs
+
