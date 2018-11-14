@@ -13,7 +13,7 @@ namespace MhtHandler.Tests
         [Fact]
         public void ExtractHtml()
         {
-            var message = File.OpenText("purchase-order.mhtml").ReadToEnd();
+            var message = File.OpenText("encoded.txt").ReadToEnd();
             FunctionHandler handler = new FunctionHandler();
             var result = handler.Handle(message);
             Assert.Contains("Purchase Order 16487645-2", result);
